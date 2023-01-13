@@ -8,41 +8,66 @@
 
 body{
     text-align: center;
+    
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* Typography */
 
 h1{
-    margin-top: 0;
+   
     width: 20%;
-    margin: 0 auto;
+    font-size: 4.25em;
+    margin:50px auto 0 auto;
+    color: #66BFBF;
+    line-height: 2;
+    
     font-family: 'Sacramento', cursive;
 }
 h2{
+    font-size: 2em;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 p{
     font-family: 'Montserrat', sans-serif;
 }
+h2,h3{color: #66BFBF;
+}
+p{
+    font-size: 1.1em;
+    color: #40514E;
+    font-weight: bold;
+}
 
+hr{
+    border: dotted 6px #66BFBF;
+    border-bottom: none;
+    text-align: center;
+    width: 4%;
+    margin: auto;
+    opacity: 0.8;
+}
 /* Top Container */
 .top-container{
     position: relative;
     padding-top: 100px;
 }
 
+
+
 /* Middle container with skills */
 .middle-container{
-    padding: 50px 10px;
+    padding: 50px  10px 0 10px;
     background-color: #E4F9F5;
 
 }
 .profile img{
-    width:15%;
+    width:8%;
     border-radius: 200px;
     /* overflow: hidden; */
 }
@@ -54,33 +79,76 @@ padding-top: 30px;
 }
 
 /* skills section */
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 .skills img{
-    width: 15%;
+    width: 25%;
+}
+.skill-img{
+    float: left;
+    margin-right: 30px;
+}
+.hobby-img{
+    float: right;
+    margin-left: 30px;
 }
 
-
+/* bottom container */
 .bottom-container{
-    background-color: #E4F9F5;
+    padding: 100px 50px;
     
+}
+.footer-link{
+    margin-right: 20px;
+    color:#E4F9F5;
+   
+   
+}
+.bottom-container a{
+    text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .colored-section{
     background-color: #e51a24;
+
+}
+.colored-section p{
+    color: #E4F9F5;
 }
 
 .skills{
     padding: 50px 10px;
 }
 .contact-me{
+    width: 50%;
+    margin: auto;
     padding: 50px 10px;
+
 }
-.colored-section h1, .colored-section p{
+
+.contact-me h3{
+    padding-bottom: 50px;
+}
+
+#year{
+    color: #E4F9F5;
+}
+.colored-section h1, .colored-section h2{
     color:#E4F9F5;
 }
 
+.bottom-container p{
+    line-height: 2;
+}
 .pro{
     text-decoration: underline;
 }
+
 
 
 .top-cloud{
@@ -94,3 +162,27 @@ padding-top: 30px;
     right: 500px;
 }
 
+/* button */
+
+.btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    text-shadow: 1px 1px 3px #e51a24;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #e51a24;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f9202b;
+    background-image: -webkit-linear-gradient(top, #f9202b, #f9202b);
+    background-image: -moz-linear-gradient(top, #f9202b, #f9202b);
+    background-image: -ms-linear-gradient(top, #f9202b, #f9202b);
+    background-image: -o-linear-gradient(top, #f9202b, #f9202b);
+    background-image: linear-gradient(to bottom, #f9202b, #f9202b);
+    text-decoration: none;
+  }
