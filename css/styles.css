@@ -85,8 +85,11 @@ padding-top: 30px;
     text-align: left;
     line-height: 2;
 }
+.skill-row h3{
+    padding-top: 20px
+}
 .skills img{
-    width: 25%;
+    width: 30%;
 }
 .skill-img{
     float: left;
@@ -105,12 +108,19 @@ padding-top: 30px;
 .footer-link{
     margin-right: 20px;
     color:#E4F9F5;
+
    
    
+}
+.footer-link:hover{
+    color: black;
 }
 .bottom-container a{
     text-decoration: none;
     margin-bottom: 30px;
+}
+.copyright{
+    font-size:0.75em;
 }
 
 .colored-section{
@@ -151,13 +161,13 @@ padding-top: 30px;
 
 .top-cloud{
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 20%;
+    top: 10%;
 }
 .bottom-cloud{
     position: relative;   
     margin-bottom: 100px;
-    right: 500px;
+    right: 25%;
 }
 
 /* button */
@@ -169,7 +179,7 @@ padding-top: 30px;
     text-shadow: 1px 1px 3px #e51a24;
     font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.25em;
     background: #e51a24;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
@@ -184,3 +194,38 @@ padding-top: 30px;
     background-image: linear-gradient(to bottom, #f9202b, #f9202b);
     text-decoration: none;
   }
+/* Responsive styles */
+
+
+
+@media screen and (max-width: 768px) {
+
+    h1{
+        font-size: 3em;
+        line-height: 1.5;
+    }
+    h2{
+        font-size:1.25em;
+    }
+    h3{
+        font-size: 1.25em;
+    }
+    p{
+        font-size:0.9em;
+    }
+}
+
+@media  screen and (max-width:540px) {
+    
+    .skill-img,.hobby-img{
+       
+        float:none;
+    }
+    .btn{
+        font-size:0.8em;
+    }
+    
+       
+    }
+
+    

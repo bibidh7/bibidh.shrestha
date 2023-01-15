@@ -74,11 +74,18 @@
         <a class="footer-link" href="https://twitter.com/">Twitter</a>
         <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
         <div class="copyright">
-            <p>© Bibidh Shrestha</p>
+            <p>© Bibidh Shrestha <span id="year"></span></p>
             <div class="year"></div>
 
         </div>
     </div>
+
+    <script type="text/javascript">
+        var d = new Date();
+        var year = d.getFullYear();
+        console.log(year);
+        document.querySelector("#year").innerHTML = year
+    </script>
     <script src="" async defer>
     </script>
 </body>
